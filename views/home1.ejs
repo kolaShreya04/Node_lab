@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= apodData.title %></title>
+  <link rel="stylesheet" href="/static/stylesheets/styles.css" type="text/css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4"><%= apodData.title %></h1>
+    <img src="<%= apodData.url %>" class="img-fluid rounded" alt="<%= apodData.title %>">
+    <p class="mt-3"><%= apodData.explanation %></p>
+    <p>Date: <%= apodData.date %></p>
+  </div>
+</body>
+</html>
